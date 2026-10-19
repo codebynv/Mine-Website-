@@ -1,0 +1,23 @@
+name: Website issue
+description: Report a website or media problem
+title: "[Website]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: page
+    attributes:
+      label: Page or media file
+    validations:
+      required: true
+  - type: textarea
+    id: device
+    attributes:
+      label: Browser and screen size
+    validations:
+      required: false
+  - type: textarea
+    id: issue
+    attributes:
+      label: Observed issue
+    validations:
+      required: true
